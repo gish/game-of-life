@@ -1,0 +1,9 @@
+{
+	"name"            : "game-of-life",
+	"version"         : "1.0.0",
+	"dependencies" : {
+		"grunt"               : "0.4.1",
+		"grunt-contrib-qunit" : ">=0.2.1",
+		"grunt-contrib-watch" : ">=0.3.1"
+	}
+}
