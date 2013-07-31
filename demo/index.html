@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="../src/game-of-life.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
+</head>
+<body>
+<h1>Game of life demo</h1>
+<div class="board-container">
+    <canvas id="game-board" width="10" height="10">
+</div>
+<form>
+    <fieldset>
+        <legend>General settings</legend>
+        <dl>
+            <dt><label for="population-count">Initial population count</label></dt>
+            <dd><input type="text" id="population-count" value="10000"></dd>
+            <dt><label for="width">Grid width</label></dt>
+            <dd><input type="number" id="width" value="200"></dd>
+            <dt><label for="height">Grid height</label></dt>
+            <dd><input type="number" id="height" value="100"></dd>
+        </dl>
+    </fieldset>
+    <input type="submit" value="Run">
+    <button id="stop-button">Stop</button>
+</form>
+<div class="stats">
+    <h2>Stats</h2>
+    <ul>
+        <li id="iterations"></li>
+        <li id="render-time"></li>
+    </ul>
+</div>
+</body>
+</html>
