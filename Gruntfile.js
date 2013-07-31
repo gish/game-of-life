@@ -10,7 +10,7 @@ module.exports = function(grunt)
 			}
 		},
 		watch : {
-			files : ['tests/*.js', 'js/app.js'],
+			files : ['tests/*.js', 'src/game-of-life.js'],
 			tasks : ['qunit']
 		}
 	});
